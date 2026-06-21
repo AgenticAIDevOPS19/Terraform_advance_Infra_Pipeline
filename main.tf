@@ -3,6 +3,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg1" {
-  name = "rg-test-1"
+  name     = "rg-test-1"
   location = "canadacentral"
 }
